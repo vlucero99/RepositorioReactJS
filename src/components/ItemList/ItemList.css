@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Poiret One', sans-serif;
+}
+.ListGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 20px;
+    justify-content: center;
+    margin: 50px;
+}

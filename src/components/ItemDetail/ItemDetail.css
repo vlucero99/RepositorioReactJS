@@ -1,0 +1,52 @@
+img{
+    width: 300px;
+    height: 350px;
+}
+.CardItem {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Header {
+    background-color: #f9bddd;
+    padding: 10px;
+    text-align: center;
+}
+.ItemHeader {
+    margin: 0;
+    font-family: 'Poiret One', sans-serif;
+}
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Info {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: bolder;
+}
+.ItemFooter {
+    padding: 10px;
+    text-align: center;
+}
+.Option {
+    background-color: #f87bc0;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Option:hover {
+    background-color: #b34884;
+}

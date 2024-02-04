@@ -1,0 +1,27 @@
+.item-count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    }
+.counter-controls {
+    display: flex;
+    margin-bottom: 10px;
+    }
+.button {
+    background-color: pink;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    }
+.button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+    }
+span{
+    width: 70px;
+}

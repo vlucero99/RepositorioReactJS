@@ -1,0 +1,62 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: pink;
+    padding: 10px;
+    height: 50px;
+    }
+.title {
+    font-family: 'Dancing Script';
+    font-size: 50px; 
+    }
+
+.link_decoration {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav-button {
+    border-radius: 5px;
+    border-style: none;
+    font-size: 25px;
+    transition: background-color 0.3s;
+    margin: 5px;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
+    }
+#link-decoration1{
+    text-decoration: none;
+    color: white;
+}
+
+#link-decoration2{
+    text-decoration: none;
+    color: white;
+}
+
+#link-decoration3{
+    text-decoration: none;
+    color: white;
+}
+
+#link-decoration4{
+    text-decoration: none;
+    color: white;
+}
+
+    @media screen and (max-width: 767px) {
+        .navbar-container {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: auto;
+        }
+        .title {
+            font-size: 30px;
+        }
+        .nav-button {
+            font-size: 18px;
+            margin: 8px;
+        }
+        }

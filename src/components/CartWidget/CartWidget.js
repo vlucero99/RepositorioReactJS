@@ -1,11 +1,12 @@
 import cart from './assets/cart.svg'
 const CartWidget = () => {
     const style = {
-        width: '70px',
-        height: '70px',
+        width: '30px',
+        height: '30px',
+        fontSize: '10px'
     };
     return (
-        <div>
+        <div style={style}>
             <img style={style} src={cart} alt="cart-widget"/>
             0
         </div>
