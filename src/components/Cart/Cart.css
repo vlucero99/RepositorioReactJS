@@ -1,0 +1,46 @@
+/* En tu archivo Cart.css o donde tengas tus estilos para Cart */
+.cart-container {
+    margin: 0 50px;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .cart-table th, .cart-table td {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    text-align: left;
+  }
+  
+  .cart-table th {
+    background-color: #f9bddd; 
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+  }
+  
+  .cart-buttons {
+    margin-top: 20px;
+  }
+
+  .Button {
+    background-color: #f87bc0;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+.Button:hover {
+    background-color: #b34884;
+}
+  

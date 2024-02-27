@@ -46,6 +46,7 @@ picture {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: 7px;
 }
 .Option:hover {
     background-color: #b34884;
